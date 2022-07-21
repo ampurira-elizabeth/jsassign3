@@ -58,9 +58,6 @@ class Mkulima {
   MkulimaPlatform.addFarm("242","Maize farm","Dathan","0777926532","Karen,Nairobi")
   MkulimaPlatform.addFarm("768","Sorghum farm","Liz","07051356276","kanungu,Uganda")
   
-  // MkulimaPlatform.removeFarm(242)
-  // MkulimaPlatform.removeFarm(768)
-  
   MkulimaPlatform.updateFarm("242","123","Beans farm","Elizabeth","0774507002","Kisumu")
   
   console.log(MkulimaPlatform.farms)
