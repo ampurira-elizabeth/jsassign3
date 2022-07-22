@@ -49,20 +49,19 @@ class Mkulima {
       console.log(`For ${quantity} of ${product.name}, the cost of your order is ${product.price*quantity}`)
       this.orders.push(product)
       this.order
-  
      }
   }
   }
   
-  let MkulimaPlatform= new Mkulima()
-  MkulimaPlatform.addFarm("242","Maize farm","Dathan","0777926532","Karen,Nairobi")
-  MkulimaPlatform.addFarm("768","Sorghum farm","Liz","07051356276","kanungu,Uganda")
+  let MkulimaPlatfarrm= new Mkulima()
+  MkulimaPlatfarrm.addFarm("262","Maize farm","Dathan","0777926532","Karen")
+  MkulimaPlatfarrm.addFarm("888","Millet farm","Liz","07051356276","kanungu,Uganda")
   
-  MkulimaPlatform.updateFarm("242","123","Beans farm","Elizabeth","0774507002","Kisumu")
+  MkulimaPlatfarrm.updateFarm("262","100","Potato farm","Elizabeth","0774507002","Kisumu")
   
-  console.log(MkulimaPlatform.farms)
+  console.log(MkulimaPlatfarrm.farms)
   
-  MkulimaPlatform.getFarm("123")
+  MkulimaPlatfarrm.getFarm("100")
   
 
 
